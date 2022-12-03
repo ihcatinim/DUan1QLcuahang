@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Một số chức năng">
+            <menu>
+                <item
+                    android:id="@+id/menu_Home"
+                    android:icon="@drawable/ic_home"
+                    android:title="Trang chủ" />
+                <item
+                    android:id="@+id/menu_BaoCao"
+                    android:icon="@drawable/iconbaocao"
+                    android:title="Báo Cáo" />
+            </menu>
+        </item>
+        <item android:title="Bạn muốn">
+            <menu>
+                <item
+                    android:id="@+id/menu_Exit"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Thoát" />
+                <item android:title="         Được tạo bởi nhóm 8" />
+            </menu>
+        </item>
+    </group>
+</menu>
